@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Nani Survey/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">Gaming Survey</h1>
+            <p id="description" class="description text-center">Survey about the habits of gamers around the world.</p>
+        </header>
+        <form action="" id="survey-form">
+            <div class="form">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Name" class="form-control">
+            </div>
+            <div class="form">
+                <label for="email" id="email-label">E-mail</label>
+                <input type="email" name="contact" id="email" placeholder="E-mail" class="form-control" required>
+            </div>
+            <div class="form">
+                <label for="number">Age
+                    <span class="clue">(optional)</span></label>
+                <input type="number" name="survey" id="number" min="10" max="99" placeholder="Number" class="form-control">
+            </div>
+            <div class="form">
+                <label for="console" id="console-label">Which console do you play?</label>
+
+                <select name="console" id="dropdown" required>
+                    <option disabled selected value="">Select one</option>
+                    <option value="xbox">Microsoft Xbox</option>
+                    <option value="switch">Nintendo Switch</option>
+                    <option value="ps4">Sony Playstation</option>
+                    <option value="pc">Computer</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="frequence">Which type of player do you consider yourself?</label>
+                <input type="radio" name="frequence" id="casual" class="input-radio"> Casual
+                <input type="radio" name="frequence" id="average" class="input-radio"> Average
+                <input type="radio" name="frequence" id="hardcore" class="input-radio"> Hardcore
+                <input type="radio" name="frequence" id="pro" class="input-radio"> Professional
+            </div>
+            <div class="form">
+                <label for="games" id="checkboxes-label"> From these games, which ones do you consider play in the near
+                    future?</label>
+                <input type="checkbox" name="game" id="celeste" value="celeste" class="input-checkbox"> Celeste
+                <input type="checkbox" name="game" id="dark-souls" value="dark-souls" class="input-checkbox"> Dark Souls Games
+                <input type="checkbox" name="game" id="final-fantasy" value="ff" class="input-checkbox"> Final Fantasy Games
+                <input type="checkbox" name="game" id="street-fighter" value="street-fighter" class="input-checkbox"> Street Fighter Games
+                <input type="checkbox" name="game" id="none" value="none" class="input-checkbox"> None of the options
+            </div>
+            <div class="form">
+                <label for="relate"> Tell more about the experience of gaming on this era: </label>
+                <textarea name="" id="" cols="30" rows="10" class="input-textarea"></textarea>
+            </div>
+            <div class="form">
+                <button id="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

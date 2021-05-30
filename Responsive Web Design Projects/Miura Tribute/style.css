@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(45deg, black, white);
+}
+
+#image {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #000;
+    box-shadow: 10px 10px 20px 10px black;
+    position: relative;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#img-caption {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: white;
+}
+
+#tribute-info {
+    text-align: center;
+    padding-top: 25px;
+    color: whitesmoke;
+    padding-bottom: 40px;
+}
+
+#tribute-link {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg, black, red);
+}

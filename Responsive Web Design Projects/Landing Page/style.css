@@ -1,0 +1,92 @@
+/* General Configs */
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+}
+
+@media (min-width:700px) {
+    header {
+        position: flex;
+        justify-self: center;
+    }
+}
+
+
+/* Navigation Bar */
+
+header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    display: inline;
+    color: rgb(250, 250, 250);
+}
+
+nav {
+    background: rgba(10, 10, 10, 0.7);
+    /*border: 5px solid rgba(150, 175, 200, 0.4);*/
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+nav>ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav>ul>li {
+    list-style: none;
+    flex: 1;
+}
+
+nav>ul>li>a {
+    padding: 10px;
+}
+
+nav>ul>li:hover {
+    background: rgb(240, 100, 100);
+}
+
+h2 {
+    font-family: 'Exo 2', sans-serif;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.description {
+    font-family: 'Exo 2', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+#form {
+    display: block;
+    margin: 0 auto;
+}
